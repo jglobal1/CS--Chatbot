@@ -1,0 +1,62 @@
+[
+  {
+    "context": "COS102 (Introduction to Programming) covers fundamental programming concepts, variables, data types, control structures, functions, and basic algorithms. Students learn Python programming language and problem-solving techniques.",
+    "question": "What does COS102 teach?",
+    "answers": {
+      "text": [
+        "fundamental programming concepts, variables, data types, control structures, functions, and basic algorithms"
+      ],
+      "answer_start": [
+        65
+      ]
+    }
+  },
+  {
+    "context": "CPT122 (Computer Programming I) introduces students to C++ programming language, object-oriented programming concepts, classes, inheritance, polymorphism, and software development principles.",
+    "question": "What programming language is taught in CPT122?",
+    "answers": {
+      "text": [
+        "C++"
+      ],
+      "answer_start": [
+        65
+      ]
+    }
+  },
+  {
+    "context": "100-level Computer Science students at FUT learn programming fundamentals, computer systems basics, mathematics for computing, and introduction to algorithms and data structures.",
+    "question": "What do 100-level CS students learn?",
+    "answers": {
+      "text": [
+        "programming fundamentals, computer systems basics, mathematics for computing, and introduction to algorithms"
+      ],
+      "answer_start": [
+        45
+      ]
+    }
+  },
+  {
+    "context": "Algorithms are step-by-step procedures for solving problems. In COS102, students learn basic algorithms like sorting, searching, and mathematical computations using programming languages.",
+    "question": "What are algorithms in COS102?",
+    "answers": {
+      "text": [
+        "step-by-step procedures for solving problems"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "Data structures organize and store data efficiently. Common data structures include arrays, linked lists, stacks, and queues. These are fundamental concepts taught in 100-level CS courses.",
+    "question": "What data structures are taught in 100-level CS?",
+    "answers": {
+      "text": [
+        "arrays, linked lists, stacks, and queues"
+      ],
+      "answer_start": [
+        85
+      ]
+    }
+  }
+]

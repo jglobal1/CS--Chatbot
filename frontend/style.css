@@ -1,0 +1,810 @@
+/* Professional FUT QA Assistant Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Styles */
+header {
+    margin-bottom: 30px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex: 1;
+}
+
+.fut-logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.fut-logo:hover {
+    transform: scale(1.05);
+}
+
+.title-section {
+    flex: 1;
+}
+
+.title-section h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.title-section p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    font-weight: 400;
+    text-align: left;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: rgba(102, 126, 234, 0.1);
+    padding: 12px 20px;
+    border-radius: 25px;
+    border: 2px solid rgba(102, 126, 234, 0.2);
+    transition: all 0.3s ease;
+}
+
+.profile-section:hover {
+    background: rgba(102, 126, 234, 0.15);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.2);
+}
+
+.profile-picture {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 3px solid #667eea;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.profile-picture:hover {
+    transform: scale(1.1);
+}
+
+/* Fallback for missing profile picture */
+.profile-picture:not([src]), 
+.profile-picture[src=""], 
+.profile-picture[src*="placeholder"] {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.profile-picture:not([src])::before, 
+.profile-picture[src=""]::before, 
+.profile-picture[src*="placeholder"]::before {
+    content: "J";
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.profile-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #2c3e50;
+    white-space: nowrap;
+}
+
+/* Main Content */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Chat Container */
+.chat-container {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Chat Messages */
+.chat-messages {
+    flex: 1;
+    padding: 30px;
+    max-height: 500px;
+    overflow-y: auto;
+    background: #f8f9fa;
+}
+
+.message {
+    margin-bottom: 25px;
+    display: flex;
+    animation: fadeInUp 0.5s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.message-content {
+    max-width: 85%;
+    padding: 20px 25px;
+    border-radius: 20px;
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+.bot-message {
+    justify-content: flex-start;
+}
+
+.bot-message .message-content {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-bottom-left-radius: 5px;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.user-message {
+    justify-content: flex-end;
+}
+
+.user-message .message-content {
+    background: #e3f2fd;
+    color: #1565c0;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 4px 15px rgba(21, 101, 192, 0.2);
+}
+
+/* Enhanced Message Content Styling */
+.message-content p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+.message-content p:last-child {
+    margin-bottom: 0;
+}
+
+.message-content ul, .message-content ol {
+    margin: 15px 0;
+    padding-left: 25px;
+}
+
+.message-content li {
+    margin-bottom: 12px;
+    line-height: 1.7;
+    padding: 4px 0;
+}
+
+.message-content strong {
+    font-weight: 600;
+    color: inherit;
+}
+
+.message-content h1, .message-content h2, .message-content h3 {
+    margin: 25px 0 20px 0;
+    font-weight: 600;
+    line-height: 1.4;
+    padding: 10px 0;
+}
+
+.message-content h1 {
+    font-size: 1.4rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 10px;
+}
+
+.message-content h2 {
+    font-size: 1.2rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.message-content h3 {
+    font-size: 1.1rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Course details styling */
+.message-content hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.3), transparent);
+    margin: 20px 0;
+}
+
+/* Better spacing for course information */
+.message-content .course-details {
+    margin: 20px 0;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border-left: 4px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Improved list styling */
+.message-content ul li {
+    position: relative;
+    padding-left: 20px;
+}
+
+.message-content ul li::before {
+    content: "•";
+    color: #667eea;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+/* Better paragraph spacing */
+.message-content p + p {
+    margin-top: 15px;
+}
+
+/* Section spacing */
+.message-content > * + * {
+    margin-top: 10px;
+}
+
+/* Code blocks */
+.message-content code {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+}
+
+/* Input Container */
+.input-container {
+    padding: 30px;
+    background: white;
+    border-top: 1px solid #e9ecef;
+}
+
+.input-group {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    align-items: flex-end;
+}
+
+.input-group textarea {
+    flex: 1;
+    padding: 15px 20px;
+    border: 2px solid #e9ecef;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-family: inherit;
+    resize: vertical;
+    min-height: 60px;
+    transition: all 0.3s ease;
+}
+
+.input-group textarea:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.input-group button {
+    padding: 15px 30px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.input-group button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+}
+
+.input-group button:active {
+    transform: translateY(0);
+}
+
+.input-group button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.context-group {
+    margin-top: 15px;
+}
+
+.context-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #495057;
+    font-size: 0.95rem;
+}
+
+.context-group textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border: 2px solid #e9ecef;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    font-family: inherit;
+    resize: vertical;
+    transition: all 0.3s ease;
+}
+
+.context-group textarea:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+/* Status Panel */
+.status-panel {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    padding: 20px 30px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.status-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.status-label {
+    font-weight: 600;
+    color: #495057;
+    font-size: 0.95rem;
+}
+
+.status-value {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.status-value.connected {
+    background: #d4edda;
+    color: #155724;
+}
+
+.status-value.loading {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.status-value.error {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 0;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+}
+
+/* Loading Spinner */
+.spinner {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* Enhanced Mobile Responsive Design */
+@media (max-width: 1024px) {
+    .container {
+        padding: 15px;
+    }
+    
+    .status-panel {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    header {
+        padding: 20px 15px;
+        margin-bottom: 20px;
+    }
+    
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+    
+    .logo-section {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .fut-logo {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .title-section h1 {
+        font-size: 1.8rem;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+    
+    .title-section p {
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    .profile-section {
+        padding: 10px 16px;
+        gap: 10px;
+    }
+    
+    .profile-picture {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .profile-name {
+        font-size: 1rem;
+    }
+    
+    .chat-container {
+        border-radius: 12px;
+    }
+    
+    .chat-messages {
+        padding: 15px;
+        max-height: 50vh;
+        min-height: 300px;
+    }
+    
+    .message {
+        margin-bottom: 15px;
+    }
+    
+    .message-content {
+        max-width: 90%;
+        padding: 12px 16px;
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+    
+    .input-container {
+        padding: 15px;
+    }
+    
+    .input-group {
+        flex-direction: column;
+        gap: 12px;
+    }
+    
+    .input-group textarea {
+        min-height: 50px;
+        padding: 12px 16px;
+        font-size: 16px; /* Prevents zoom on iOS */
+    }
+    
+    .input-group button {
+        width: 100%;
+        padding: 12px 20px;
+        font-size: 1rem;
+    }
+    
+    .status-panel {
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px;
+    }
+    
+    .status-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 8px;
+    }
+    
+    header {
+        padding: 15px 10px;
+        margin-bottom: 15px;
+    }
+    
+    .fut-logo {
+        width: 45px;
+        height: 45px;
+    }
+    
+    .title-section h1 {
+        font-size: 1.6rem;
+    }
+    
+    .title-section p {
+        font-size: 0.9rem;
+    }
+    
+    .profile-section {
+        padding: 8px 12px;
+        gap: 8px;
+    }
+    
+    .profile-picture {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .profile-name {
+        font-size: 0.9rem;
+    }
+    
+    .chat-messages {
+        padding: 12px;
+        max-height: 45vh;
+        min-height: 250px;
+    }
+    
+    .message-content {
+        max-width: 95%;
+        padding: 10px 14px;
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+    
+    .input-container {
+        padding: 12px;
+    }
+    
+    .input-group textarea {
+        min-height: 45px;
+        padding: 10px 14px;
+        font-size: 16px;
+    }
+    
+    .input-group button {
+        padding: 10px 16px;
+        font-size: 0.95rem;
+    }
+    
+    .status-panel {
+        padding: 12px;
+    }
+    
+    .status-label {
+        font-size: 0.85rem;
+    }
+    
+    .status-value {
+        font-size: 0.8rem;
+        padding: 4px 8px;
+    }
+}
+
+/* Extra small devices (phones in portrait) */
+@media (max-width: 360px) {
+    .container {
+        padding: 5px;
+    }
+    
+    header h1 {
+        font-size: 1.4rem;
+    }
+    
+    .chat-messages {
+        padding: 10px;
+        max-height: 40vh;
+    }
+    
+    .message-content {
+        padding: 8px 12px;
+        font-size: 0.85rem;
+    }
+    
+    .input-container {
+        padding: 10px;
+    }
+}
+
+/* Landscape orientation for mobile */
+@media (max-height: 500px) and (orientation: landscape) {
+    .chat-messages {
+        max-height: 30vh;
+        min-height: 200px;
+    }
+    
+    header {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    
+    header h1 {
+        font-size: 1.4rem;
+    }
+    
+    .input-container {
+        padding: 10px;
+    }
+}
+
+/* Touch-friendly improvements */
+@media (hover: none) and (pointer: coarse) {
+    .input-group button {
+        min-height: 44px; /* iOS touch target size */
+    }
+    
+    .input-group textarea {
+        min-height: 44px;
+    }
+    
+    .message-content {
+        padding: 14px 18px; /* Better touch targets */
+    }
+}
+
+/* Scrollbar Styling */
+.chat-messages::-webkit-scrollbar {
+    width: 8px;
+}
+
+.chat-messages::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.chat-messages::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 4px;
+}
+
+.chat-messages::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+/* Enhanced Typography */
+.message-content blockquote {
+    border-left: 4px solid #667eea;
+    padding-left: 20px;
+    margin: 15px 0;
+    font-style: italic;
+    color: #6c757d;
+}
+
+.message-content hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #667eea, transparent);
+    margin: 20px 0;
+}
+
+/* Professional spacing for lists */
+.message-content ul li::marker,
+.message-content ol li::marker {
+    color: #667eea;
+    font-weight: bold;
+}
+
+/* Enhanced button states */
+.input-group button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.3);
+}
+
+/* Smooth transitions */
+* {
+    transition: all 0.3s ease;
+}
+
+/* Professional shadows */
+.chat-container,
+.status-panel,
+header {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Enhanced accessibility */
+.input-group textarea:focus,
+.context-group textarea:focus,
+.input-group button:focus {
+    outline: 2px solid #667eea;
+    outline-offset: 2px;
+}
+
+/* Loading states */
+.loading {
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+/* Success animations */
+@keyframes successPulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.success {
+    animation: successPulse 0.6s ease-in-out;
+}

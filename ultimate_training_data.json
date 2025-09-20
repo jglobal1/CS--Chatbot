@@ -1,0 +1,1442 @@
+[
+  {
+    "context": "COS102 (Introduction to Programming) covers fundamental programming concepts, variables, data types, control structures, functions, and basic algorithms. Students learn Python programming language and problem-solving techniques.",
+    "question": "What does COS102 teach?",
+    "answers": {
+      "text": [
+        "fundamental programming concepts, variables, data types, control structures, functions, and basic algorithms"
+      ],
+      "answer_start": [
+        65
+      ]
+    }
+  },
+  {
+    "context": "CPT122 (Computer Programming I) introduces students to C++ programming language, object-oriented programming concepts, classes, inheritance, polymorphism, and software development principles.",
+    "question": "What programming language is taught in CPT122?",
+    "answers": {
+      "text": [
+        "C++"
+      ],
+      "answer_start": [
+        65
+      ]
+    }
+  },
+  {
+    "context": "100-level Computer Science students at FUT learn programming fundamentals, computer systems basics, mathematics for computing, and introduction to algorithms and data structures.",
+    "question": "What do 100-level CS students learn?",
+    "answers": {
+      "text": [
+        "programming fundamentals, computer systems basics, mathematics for computing, and introduction to algorithms"
+      ],
+      "answer_start": [
+        45
+      ]
+    }
+  },
+  {
+    "context": "Algorithms are step-by-step procedures for solving problems. In COS102, students learn basic algorithms like sorting, searching, and mathematical computations using programming languages.",
+    "question": "What are algorithms in COS102?",
+    "answers": {
+      "text": [
+        "step-by-step procedures for solving problems"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "Data structures organize and store data efficiently. Common data structures include arrays, linked lists, stacks, and queues. These are fundamental concepts taught in 100-level CS courses.",
+    "question": "What data structures are taught in 100-level CS?",
+    "answers": {
+      "text": [
+        "arrays, linked lists, stacks, and queues"
+      ],
+      "answer_start": [
+        85
+      ]
+    }
+  },
+  {
+    "context": "The School of Information and Communication Technology (SICT) at FUT offers programs in Computer Science, Telecommunications, and Cyber Security. Students can access IT labs and computer facilities during designated hours. The school provides various software and development tools for student use.",
+    "question": "What programs does the SICT school offer?",
+    "answers": {
+      "text": [
+        "Computer Science, Telecommunications, and Cyber Security"
+      ],
+      "answer_start": [
+        67
+      ]
+    }
+  },
+  {
+    "context": "SICT students can access IT labs and computer facilities during designated hours. The labs are equipped with modern computers, software development tools, and network access. Students need to follow lab usage policies and schedules.",
+    "question": "How do I access the SICT IT labs?",
+    "answers": {
+      "text": [
+        "Students can access IT labs and computer facilities during designated hours"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "The SICT school provides course schedules and prerequisites for all programs. Students can find detailed course information, prerequisites, and scheduling through the school's academic portal and notice boards.",
+    "question": "Where can I find SICT course schedules and prerequisites?",
+    "answers": {
+      "text": [
+        "through the school's academic portal and notice boards"
+      ],
+      "answer_start": [
+        67
+      ]
+    }
+  },
+  {
+    "context": "SICT students have access to various programming languages and software requirements. The school provides development tools, programming environments, and software licenses for student projects and coursework.",
+    "question": "What programming languages and software are available for SICT students?",
+    "answers": {
+      "text": [
+        "various programming languages and software requirements. The school provides development tools, programming environments, and software licenses"
+      ],
+      "answer_start": [
+        20
+      ]
+    }
+  },
+  {
+    "context": "Project submission guidelines for SICT students include specific formatting requirements, submission deadlines, and evaluation criteria. Students must follow the school's project submission policies and use the designated submission platforms.",
+    "question": "What are the SICT project submission guidelines?",
+    "answers": {
+      "text": [
+        "specific formatting requirements, submission deadlines, and evaluation criteria"
+      ],
+      "answer_start": [
+        47
+      ]
+    }
+  },
+  {
+    "context": "The SICT school offers internship and industry connections for students. Students can access career services, industry partnerships, and internship opportunities through the school's career development office.",
+    "question": "How can SICT students find internship and industry connections?",
+    "answers": {
+      "text": [
+        "through the school's career development office"
+      ],
+      "answer_start": [
+        67
+      ]
+    }
+  },
+  {
+    "context": "SICT faculty members maintain regular office hours and are available for student consultations. Students can find faculty contact information, office hours, and consultation schedules on the school's website and notice boards.",
+    "question": "How can I find SICT faculty office hours and contact information?",
+    "answers": {
+      "text": [
+        "on the school's website and notice boards"
+      ],
+      "answer_start": [
+        67
+      ]
+    }
+  },
+  {
+    "context": "Research project opportunities are available for SICT students at various levels. Students can participate in faculty research projects, independent research, and collaborative research initiatives through the school's research office.",
+    "question": "What research project opportunities are available for SICT students?",
+    "answers": {
+      "text": [
+        "faculty research projects, independent research, and collaborative research initiatives"
+      ],
+      "answer_start": [
+        47
+      ]
+    }
+  },
+  {
+    "context": "SICT students have access to IT infrastructure and network resources. The school provides high-speed internet, network storage, cloud computing resources, and database access for academic and research purposes.",
+    "question": "What IT infrastructure and network access do SICT students have?",
+    "answers": {
+      "text": [
+        "high-speed internet, network storage, cloud computing resources, and database access"
+      ],
+      "answer_start": [
+        47
+      ]
+    }
+  },
+  {
+    "context": "The SICT school has specific policies regarding lab usage, project submissions, academic integrity, and student conduct. These policies are available in the student handbook and on the school's website.",
+    "question": "Where can I find SICT school policies?",
+    "answers": {
+      "text": [
+        "in the student handbook and on the school's website"
+      ],
+      "answer_start": [
+        67
+      ]
+    }
+  },
+  {
+    "context": "SICT students in Computer Science, Telecommunications, and Cyber Security programs have access to specialized equipment and software. Each program has specific requirements and resources tailored to their field of study.",
+    "question": "What specialized equipment is available for different SICT programs?",
+    "answers": {
+      "text": [
+        "specialized equipment and software. Each program has specific requirements and resources tailored to their field of study"
+      ],
+      "answer_start": [
+        47
+      ]
+    }
+  },
+  {
+    "context": "The SICT school provides academic support services including tutoring, study groups, and academic counseling. Students can access these services through the school's student support office and academic advisors.",
+    "question": "What academic support services does SICT provide?",
+    "answers": {
+      "text": [
+        "tutoring, study groups, and academic counseling"
+      ],
+      "answer_start": [
+        47
+      ]
+    }
+  },
+  {
+    "context": "Hello! I'm the FUT QA Assistant. I can help you with questions about Federal University of Technology, including academic programs, admission requirements, campus information, and student services.",
+    "question": "Hi, how are you?",
+    "answers": {
+      "text": [
+        "Hello! I'm doing great, thank you for asking! I'm here to help you with any questions about FUT. How can I assist you today?"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "The FUT QA Assistant is designed to help students, prospective students, and visitors with information about Federal University of Technology. I can provide details about programs, admissions, campus life, and academic resources.",
+    "question": "What's up?",
+    "answers": {
+      "text": [
+        "Hey there! I'm here and ready to help you with any questions about FUT. What would you like to know?"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "I'm the FUT QA Assistant, your friendly guide to all things Federal University of Technology. Whether you're a current student, prospective student, or just curious about the university, I'm here to help!",
+    "question": "How are you doing?",
+    "answers": {
+      "text": [
+        "I'm doing fantastic, thank you! I'm excited to help you learn more about FUT. What questions do you have for me today?"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "The FUT QA Assistant is always ready to help with questions about Federal University of Technology. I can provide information about academic programs, campus facilities, student life, and much more.",
+    "question": "What can you help me with?",
+    "answers": {
+      "text": [
+        "I can help you with information about FUT's academic programs, admission requirements, campus facilities, student services, and much more! What specific information are you looking for?"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "Federal University of Technology offers various programs in engineering, technology, and applied sciences. The university provides excellent academic resources and student support services.",
+    "question": "Tell me about FUT",
+    "answers": {
+      "text": [
+        "Federal University of Technology (FUT) is a Nigerian university focused on technology and engineering education. We offer various programs in engineering, technology, and applied sciences with excellent academic resources and student support services."
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "Hello! I'm the FUT QA Assistant, your friendly guide to Federal University of Technology. I'm here to help you with questions about FUT's programs, admissions, campus life, and student services. I'm excited to assist you today!",
+    "question": "hi",
+    "answers": {
+      "text": [
+        "Hello! I'm doing great, thank you for asking! I'm the FUT QA Assistant and I'm here to help you with any questions about Federal University of Technology. How can I assist you today?"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "Hi there! I'm the FUT QA Assistant, your helpful guide to Federal University of Technology. I can provide information about academic programs, admission requirements, campus facilities, and student life. I'm ready to help you with any questions you might have!",
+    "question": "hello",
+    "answers": {
+      "text": [
+        "Hello! Nice to meet you! I'm the FUT QA Assistant and I'm here to help you learn about Federal University of Technology. What would you like to know about FUT?"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "I'm the FUT QA Assistant, your friendly guide to Federal University of Technology. I'm doing fantastic and I'm excited to help you with questions about FUT's academic programs, campus life, and student services. I'm here to make your FUT experience better!",
+    "question": "how are you?",
+    "answers": {
+      "text": [
+        "I'm doing fantastic, thank you for asking! I'm the FUT QA Assistant and I'm excited to help you learn about Federal University of Technology. What questions do you have for me today?"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "I'm the FUT QA Assistant, your friendly and knowledgeable guide to Federal University of Technology. I'm designed to help students, prospective students, and visitors with information about FUT's academic programs, campus life, student services, and university resources. I'm excited to help you learn about FUT!",
+    "question": "tell me about yourself",
+    "answers": {
+      "text": [
+        "I'm the FUT QA Assistant, your friendly guide to Federal University of Technology! I'm designed to help students, prospective students, and visitors with information about FUT's academic programs, campus life, student services, and university resources. I'm excited to help you learn about FUT!"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "- B) A step-by-step method for solving a well-defined problem",
+    "question": "What information is available about COS 102 M1-M4?",
+    "answers": {
+      "text": [
+        "- B) A step-by-step method for solving a well-defined problem"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "- B) A step-by-step method for solving a well-defined problem",
+    "question": "What does COS 102 M1-M4 cover?",
+    "answers": {
+      "text": [
+        "- B) A step-by-step method for solving a well-defined problem"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "- B) A step-by-step method for solving a well-defined problem",
+    "question": "What are the details in COS 102 M1-M4?",
+    "answers": {
+      "text": [
+        "- B) A step-by-step method for solving a well-defined problem"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "\u27a2These instructions are written in programming languages that computers can interpret and execute, consisting of algorithms and data structures that guide how data is processed, hardware interaction, and user output",
+    "question": "What information is available about computer hardware in CPT122 - Introduction to computer Hardware module 1 unit 2?",
+    "answers": {
+      "text": [
+        "\u27a2These instructions are written in programming languages that computers can interpret and execute, consisting of algorithms and data structures that guide how data is processed, hardware interaction, ..."
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "\u27a2These instructions are written in programming languages that computers can interpret and execute, consisting of algorithms and data structures that guide how data is processed, hardware interaction, and user output",
+    "question": "What does CPT122 - Introduction to computer Hardware module 1 unit 2 say about computer systems?",
+    "answers": {
+      "text": [
+        "\u27a2These instructions are written in programming languages that computers can interpret and execute, consisting of algorithms and data structures that guide how data is processed, hardware interaction, ..."
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "\u27a2These instructions are written in programming languages that computers can interpret and execute, consisting of algorithms and data structures that guide how data is processed, hardware interaction, and user output",
+    "question": "What hardware concepts are covered in CPT122 - Introduction to computer Hardware module 1 unit 2?",
+    "answers": {
+      "text": [
+        "\u27a2These instructions are written in programming languages that computers can interpret and execute, consisting of algorithms and data structures that guide how data is processed, hardware interaction, ..."
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "\u27a2Examples: BIOS/UEFI in motherboards, embedded firmware in routers, printers",
+    "question": "What information is available about CPT122 - Introduction to computer Hardware module 1 unit 2?",
+    "answers": {
+      "text": [
+        "\u27a2Examples: BIOS/UEFI in motherboards, embedded firmware in routers, printers"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "\u27a2Examples: BIOS/UEFI in motherboards, embedded firmware in routers, printers",
+    "question": "What does CPT122 - Introduction to computer Hardware module 1 unit 2 cover?",
+    "answers": {
+      "text": [
+        "\u27a2Examples: BIOS/UEFI in motherboards, embedded firmware in routers, printers"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "\u27a2Examples: BIOS/UEFI in motherboards, embedded firmware in routers, printers",
+    "question": "What are the details in CPT122 - Introduction to computer Hardware module 1 unit 2?",
+    "answers": {
+      "text": [
+        "\u27a2Examples: BIOS/UEFI in motherboards, embedded firmware in routers, printers"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "\u27a2Development of the World Wide Web in the early 1990s",
+    "question": "What information is available about CPT122 - Introduction to computer Hardware module 1, unit 1?",
+    "answers": {
+      "text": [
+        "\u27a2Development of the World Wide Web in the early 1990s"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "\u27a2Development of the World Wide Web in the early 1990s",
+    "question": "What does CPT122 - Introduction to computer Hardware module 1, unit 1 cover?",
+    "answers": {
+      "text": [
+        "\u27a2Development of the World Wide Web in the early 1990s"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "\u27a2Development of the World Wide Web in the early 1990s",
+    "question": "What are the details in CPT122 - Introduction to computer Hardware module 1, unit 1?",
+    "answers": {
+      "text": [
+        "\u27a2Development of the World Wide Web in the early 1990s"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "IBM PC \u27a2Introduction of the personal computer in 1981",
+    "question": "What information is available about computer hardware in CPT122 - Introduction to computer Hardware module 1, unit 1?",
+    "answers": {
+      "text": [
+        "IBM PC \u27a2Introduction of the personal computer in 1981"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "IBM PC \u27a2Introduction of the personal computer in 1981",
+    "question": "What does CPT122 - Introduction to computer Hardware module 1, unit 1 say about computer systems?",
+    "answers": {
+      "text": [
+        "IBM PC \u27a2Introduction of the personal computer in 1981"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "IBM PC \u27a2Introduction of the personal computer in 1981",
+    "question": "What hardware concepts are covered in CPT122 - Introduction to computer Hardware module 1, unit 1?",
+    "answers": {
+      "text": [
+        "IBM PC \u27a2Introduction of the personal computer in 1981"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "\u27a2Key components include the Control Unit (CU), Arithmetic Logic Unit (ALU), and Registers and Cache",
+    "question": "What information is available about CPT122 - Introduction to computer Hardware module 2 unit 1_60198e9f5cab7d8e1f5ea829caa84c6b?",
+    "answers": {
+      "text": [
+        "\u27a2Key components include the Control Unit (CU), Arithmetic Logic Unit (ALU), and Registers and Cache"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "\u27a2Key components include the Control Unit (CU), Arithmetic Logic Unit (ALU), and Registers and Cache",
+    "question": "What does CPT122 - Introduction to computer Hardware module 2 unit 1_60198e9f5cab7d8e1f5ea829caa84c6b cover?",
+    "answers": {
+      "text": [
+        "\u27a2Key components include the Control Unit (CU), Arithmetic Logic Unit (ALU), and Registers and Cache"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "\u27a2Key components include the Control Unit (CU), Arithmetic Logic Unit (ALU), and Registers and Cache",
+    "question": "What are the details in CPT122 - Introduction to computer Hardware module 2 unit 1_60198e9f5cab7d8e1f5ea829caa84c6b?",
+    "answers": {
+      "text": [
+        "\u27a2Key components include the Control Unit (CU), Arithmetic Logic Unit (ALU), and Registers and Cache"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "\u27a2Key components on the motherboard include the Chipset, facilitating data flow, and BIOS/UEFI, initializing hardware during booting",
+    "question": "What information is available about computer hardware in CPT122 - Introduction to computer Hardware module 2 unit 1_60198e9f5cab7d8e1f5ea829caa84c6b?",
+    "answers": {
+      "text": [
+        "\u27a2Key components on the motherboard include the Chipset, facilitating data flow, and BIOS/UEFI, initializing hardware during booting"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "\u27a2Key components on the motherboard include the Chipset, facilitating data flow, and BIOS/UEFI, initializing hardware during booting",
+    "question": "What does CPT122 - Introduction to computer Hardware module 2 unit 1_60198e9f5cab7d8e1f5ea829caa84c6b say about computer systems?",
+    "answers": {
+      "text": [
+        "\u27a2Key components on the motherboard include the Chipset, facilitating data flow, and BIOS/UEFI, initializing hardware during booting"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "\u27a2Key components on the motherboard include the Chipset, facilitating data flow, and BIOS/UEFI, initializing hardware during booting",
+    "question": "What hardware concepts are covered in CPT122 - Introduction to computer Hardware module 2 unit 1_60198e9f5cab7d8e1f5ea829caa84c6b?",
+    "answers": {
+      "text": [
+        "\u27a2Key components on the motherboard include the Chipset, facilitating data flow, and BIOS/UEFI, initializing hardware during booting"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "FUTM-CPT 122: Introduction to Computer Hardware Systems and Maintenance Module 4: Computer Maintenance Unit 1: Computer Maintenance Basics Unit 2: Troubleshooting and Repair  Module 4 Computer Maintenance Unit 1: Computer Maintenance Basics Unit 2: Troubleshooting and Repair  Unit 1 Computer Maintenance Basics Contents 1",
+    "question": "What information is available about computer hardware in Modue 4 - FUTM-CPT 122- Introduction to Computer Hardware Systems and Maintenance_2_39d100db4123779d6c4b5686b73d8487?",
+    "answers": {
+      "text": [
+        "FUTM-CPT 122: Introduction to Computer Hardware Systems and Maintenance Module 4: Computer Maintenance Unit 1: Computer Maintenance Basics Unit 2: Troubleshooting and Repair  Module 4 Computer Mainten..."
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "FUTM-CPT 122: Introduction to Computer Hardware Systems and Maintenance Module 4: Computer Maintenance Unit 1: Computer Maintenance Basics Unit 2: Troubleshooting and Repair  Module 4 Computer Maintenance Unit 1: Computer Maintenance Basics Unit 2: Troubleshooting and Repair  Unit 1 Computer Maintenance Basics Contents 1",
+    "question": "What does Modue 4 - FUTM-CPT 122- Introduction to Computer Hardware Systems and Maintenance_2_39d100db4123779d6c4b5686b73d8487 say about computer systems?",
+    "answers": {
+      "text": [
+        "FUTM-CPT 122: Introduction to Computer Hardware Systems and Maintenance Module 4: Computer Maintenance Unit 1: Computer Maintenance Basics Unit 2: Troubleshooting and Repair  Module 4 Computer Mainten..."
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "FUTM-CPT 122: Introduction to Computer Hardware Systems and Maintenance Module 4: Computer Maintenance Unit 1: Computer Maintenance Basics Unit 2: Troubleshooting and Repair  Module 4 Computer Maintenance Unit 1: Computer Maintenance Basics Unit 2: Troubleshooting and Repair  Unit 1 Computer Maintenance Basics Contents 1",
+    "question": "What hardware concepts are covered in Modue 4 - FUTM-CPT 122- Introduction to Computer Hardware Systems and Maintenance_2_39d100db4123779d6c4b5686b73d8487?",
+    "answers": {
+      "text": [
+        "FUTM-CPT 122: Introduction to Computer Hardware Systems and Maintenance Module 4: Computer Maintenance Unit 1: Computer Maintenance Basics Unit 2: Troubleshooting and Repair  Module 4 Computer Mainten..."
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "Maintenance activities like regular brushing, dusting, vacuum cleaning, etc",
+    "question": "What information is available about Modue 4 - FUTM-CPT 122- Introduction to Computer Hardware Systems and Maintenance_2_39d100db4123779d6c4b5686b73d8487?",
+    "answers": {
+      "text": [
+        "Maintenance activities like regular brushing, dusting, vacuum cleaning, etc"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "Maintenance activities like regular brushing, dusting, vacuum cleaning, etc",
+    "question": "What does Modue 4 - FUTM-CPT 122- Introduction to Computer Hardware Systems and Maintenance_2_39d100db4123779d6c4b5686b73d8487 cover?",
+    "answers": {
+      "text": [
+        "Maintenance activities like regular brushing, dusting, vacuum cleaning, etc"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "Maintenance activities like regular brushing, dusting, vacuum cleaning, etc",
+    "question": "What are the details in Modue 4 - FUTM-CPT 122- Introduction to Computer Hardware Systems and Maintenance_2_39d100db4123779d6c4b5686b73d8487?",
+    "answers": {
+      "text": [
+        "Maintenance activities like regular brushing, dusting, vacuum cleaning, etc"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "FUTM-CPT 122: Introduction to Computer Hardware Systems and Maintenance Module 2: Computer Hardware Components Unit 1: Introduction to Different Parts of a Computer System  Module 2 Computer Hardware Components Unit 1: Introduction to Different Parts of a Computer System  Unit 1 Introduction to Different Parts of a Computer System Contents 1",
+    "question": "What information is available about computer hardware in Module 2 - FUTM-CPT 122- Introduction to Computer Hardware Systems and Maintenance_98ed8947d600abe43052d6be9c9085d9?",
+    "answers": {
+      "text": [
+        "FUTM-CPT 122: Introduction to Computer Hardware Systems and Maintenance Module 2: Computer Hardware Components Unit 1: Introduction to Different Parts of a Computer System  Module 2 Computer Hardware ..."
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "FUTM-CPT 122: Introduction to Computer Hardware Systems and Maintenance Module 2: Computer Hardware Components Unit 1: Introduction to Different Parts of a Computer System  Module 2 Computer Hardware Components Unit 1: Introduction to Different Parts of a Computer System  Unit 1 Introduction to Different Parts of a Computer System Contents 1",
+    "question": "What does Module 2 - FUTM-CPT 122- Introduction to Computer Hardware Systems and Maintenance_98ed8947d600abe43052d6be9c9085d9 say about computer systems?",
+    "answers": {
+      "text": [
+        "FUTM-CPT 122: Introduction to Computer Hardware Systems and Maintenance Module 2: Computer Hardware Components Unit 1: Introduction to Different Parts of a Computer System  Module 2 Computer Hardware ..."
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "FUTM-CPT 122: Introduction to Computer Hardware Systems and Maintenance Module 2: Computer Hardware Components Unit 1: Introduction to Different Parts of a Computer System  Module 2 Computer Hardware Components Unit 1: Introduction to Different Parts of a Computer System  Unit 1 Introduction to Different Parts of a Computer System Contents 1",
+    "question": "What hardware concepts are covered in Module 2 - FUTM-CPT 122- Introduction to Computer Hardware Systems and Maintenance_98ed8947d600abe43052d6be9c9085d9?",
+    "answers": {
+      "text": [
+        "FUTM-CPT 122: Introduction to Computer Hardware Systems and Maintenance Module 2: Computer Hardware Components Unit 1: Introduction to Different Parts of a Computer System  Module 2 Computer Hardware ..."
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "\u25cf Memory (RAM and ROM): used for storing temporary and essential firmware and system instructions",
+    "question": "What information is available about Module 2 - FUTM-CPT 122- Introduction to Computer Hardware Systems and Maintenance_98ed8947d600abe43052d6be9c9085d9?",
+    "answers": {
+      "text": [
+        "\u25cf Memory (RAM and ROM): used for storing temporary and essential firmware and system instructions"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "\u25cf Memory (RAM and ROM): used for storing temporary and essential firmware and system instructions",
+    "question": "What does Module 2 - FUTM-CPT 122- Introduction to Computer Hardware Systems and Maintenance_98ed8947d600abe43052d6be9c9085d9 cover?",
+    "answers": {
+      "text": [
+        "\u25cf Memory (RAM and ROM): used for storing temporary and essential firmware and system instructions"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "\u25cf Memory (RAM and ROM): used for storing temporary and essential firmware and system instructions",
+    "question": "What are the details in Module 2 - FUTM-CPT 122- Introduction to Computer Hardware Systems and Maintenance_98ed8947d600abe43052d6be9c9085d9?",
+    "answers": {
+      "text": [
+        "\u25cf Memory (RAM and ROM): used for storing temporary and essential firmware and system instructions"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "FUTM-CPT 122: Introduction to Computer Hardware Systems and Maintenance Module 3: Building and Maintaining a Computer System Unit 1: Computer Components and Requirements Unit 2: Assembling a Computer System Unit 3: Software Installation  Module 3 Assembling and Setting Up a Computer Unit 1: Computer Components and Requirements Unit 2: Assembling a Computer System Unit 3 Software Installation  Unit 1 Computer Components and Requirements Contents 1",
+    "question": "What information is available about computer hardware in Module 3 - FUTM-CPT 122_ Introduction to Computer Hardware Systems and Maintenance_7b96e35d478029688a866e3248a83ecf?",
+    "answers": {
+      "text": [
+        "FUTM-CPT 122: Introduction to Computer Hardware Systems and Maintenance Module 3: Building and Maintaining a Computer System Unit 1: Computer Components and Requirements Unit 2: Assembling a Computer ..."
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "FUTM-CPT 122: Introduction to Computer Hardware Systems and Maintenance Module 3: Building and Maintaining a Computer System Unit 1: Computer Components and Requirements Unit 2: Assembling a Computer System Unit 3: Software Installation  Module 3 Assembling and Setting Up a Computer Unit 1: Computer Components and Requirements Unit 2: Assembling a Computer System Unit 3 Software Installation  Unit 1 Computer Components and Requirements Contents 1",
+    "question": "What does Module 3 - FUTM-CPT 122_ Introduction to Computer Hardware Systems and Maintenance_7b96e35d478029688a866e3248a83ecf say about computer systems?",
+    "answers": {
+      "text": [
+        "FUTM-CPT 122: Introduction to Computer Hardware Systems and Maintenance Module 3: Building and Maintaining a Computer System Unit 1: Computer Components and Requirements Unit 2: Assembling a Computer ..."
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "FUTM-CPT 122: Introduction to Computer Hardware Systems and Maintenance Module 3: Building and Maintaining a Computer System Unit 1: Computer Components and Requirements Unit 2: Assembling a Computer System Unit 3: Software Installation  Module 3 Assembling and Setting Up a Computer Unit 1: Computer Components and Requirements Unit 2: Assembling a Computer System Unit 3 Software Installation  Unit 1 Computer Components and Requirements Contents 1",
+    "question": "What hardware concepts are covered in Module 3 - FUTM-CPT 122_ Introduction to Computer Hardware Systems and Maintenance_7b96e35d478029688a866e3248a83ecf?",
+    "answers": {
+      "text": [
+        "FUTM-CPT 122: Introduction to Computer Hardware Systems and Maintenance Module 3: Building and Maintaining a Computer System Unit 1: Computer Components and Requirements Unit 2: Assembling a Computer ..."
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "Preparation for Assembly Proper preparation is key to a successful assembly",
+    "question": "What information is available about Module 3 - FUTM-CPT 122_ Introduction to Computer Hardware Systems and Maintenance_7b96e35d478029688a866e3248a83ecf?",
+    "answers": {
+      "text": [
+        "Preparation for Assembly Proper preparation is key to a successful assembly"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "Preparation for Assembly Proper preparation is key to a successful assembly",
+    "question": "What does Module 3 - FUTM-CPT 122_ Introduction to Computer Hardware Systems and Maintenance_7b96e35d478029688a866e3248a83ecf cover?",
+    "answers": {
+      "text": [
+        "Preparation for Assembly Proper preparation is key to a successful assembly"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "Preparation for Assembly Proper preparation is key to a successful assembly",
+    "question": "What are the details in Module 3 - FUTM-CPT 122_ Introduction to Computer Hardware Systems and Maintenance_7b96e35d478029688a866e3248a83ecf?",
+    "answers": {
+      "text": [
+        "Preparation for Assembly Proper preparation is key to a successful assembly"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "CPT 122 \u2013Introduction to computer Hardware Module 3, Unit 1: Computer Computer Components and and Requirements Assembling acomputer system from individual components isa fundamental skill for anyone interested incomputer hardware, maintenance, orcustom -built systems",
+    "question": "What information is available about computer hardware in Module 3 Unit 1 - PowerPoint_e38bfe199fec0b439ea26a45c84eb0af?",
+    "answers": {
+      "text": [
+        "CPT 122 \u2013Introduction to computer Hardware Module 3, Unit 1: Computer Computer Components and and Requirements Assembling acomputer system from individual components isa fundamental skill for anyone i..."
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "CPT 122 \u2013Introduction to computer Hardware Module 3, Unit 1: Computer Computer Components and and Requirements Assembling acomputer system from individual components isa fundamental skill for anyone interested incomputer hardware, maintenance, orcustom -built systems",
+    "question": "What does Module 3 Unit 1 - PowerPoint_e38bfe199fec0b439ea26a45c84eb0af say about computer systems?",
+    "answers": {
+      "text": [
+        "CPT 122 \u2013Introduction to computer Hardware Module 3, Unit 1: Computer Computer Components and and Requirements Assembling acomputer system from individual components isa fundamental skill for anyone i..."
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "CPT 122 \u2013Introduction to computer Hardware Module 3, Unit 1: Computer Computer Components and and Requirements Assembling acomputer system from individual components isa fundamental skill for anyone interested incomputer hardware, maintenance, orcustom -built systems",
+    "question": "What hardware concepts are covered in Module 3 Unit 1 - PowerPoint_e38bfe199fec0b439ea26a45c84eb0af?",
+    "answers": {
+      "text": [
+        "CPT 122 \u2013Introduction to computer Hardware Module 3, Unit 1: Computer Computer Components and and Requirements Assembling acomputer system from individual components isa fundamental skill for anyone i..."
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "Flat -head screwdrivers have astraight tip for screws with aslot -shaped head",
+    "question": "What information is available about Module 3 Unit 1 - PowerPoint_e38bfe199fec0b439ea26a45c84eb0af?",
+    "answers": {
+      "text": [
+        "Flat -head screwdrivers have astraight tip for screws with aslot -shaped head"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "Flat -head screwdrivers have astraight tip for screws with aslot -shaped head",
+    "question": "What does Module 3 Unit 1 - PowerPoint_e38bfe199fec0b439ea26a45c84eb0af cover?",
+    "answers": {
+      "text": [
+        "Flat -head screwdrivers have astraight tip for screws with aslot -shaped head"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "Flat -head screwdrivers have astraight tip for screws with aslot -shaped head",
+    "question": "What are the details in Module 3 Unit 1 - PowerPoint_e38bfe199fec0b439ea26a45c84eb0af?",
+    "answers": {
+      "text": [
+        "Flat -head screwdrivers have astraight tip for screws with aslot -shaped head"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "CPT 122 \u2013Introduction to computer Hardware Module 3, Unit 2: Assembling a Computer System Building acomputer system isarewarding experience, allowing you to customize amachine that perfectly fits your needs",
+    "question": "What information is available about computer hardware in Module 3 Unit 2 - PowerPoint_2c2e11e5c0018de131b5f564d7ac6feb?",
+    "answers": {
+      "text": [
+        "CPT 122 \u2013Introduction to computer Hardware Module 3, Unit 2: Assembling a Computer System Building acomputer system isarewarding experience, allowing you to customize amachine that perfectly fits your..."
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "CPT 122 \u2013Introduction to computer Hardware Module 3, Unit 2: Assembling a Computer System Building acomputer system isarewarding experience, allowing you to customize amachine that perfectly fits your needs",
+    "question": "What does Module 3 Unit 2 - PowerPoint_2c2e11e5c0018de131b5f564d7ac6feb say about computer systems?",
+    "answers": {
+      "text": [
+        "CPT 122 \u2013Introduction to computer Hardware Module 3, Unit 2: Assembling a Computer System Building acomputer system isarewarding experience, allowing you to customize amachine that perfectly fits your..."
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "CPT 122 \u2013Introduction to computer Hardware Module 3, Unit 2: Assembling a Computer System Building acomputer system isarewarding experience, allowing you to customize amachine that perfectly fits your needs",
+    "question": "What hardware concepts are covered in Module 3 Unit 2 - PowerPoint_2c2e11e5c0018de131b5f564d7ac6feb?",
+    "answers": {
+      "text": [
+        "CPT 122 \u2013Introduction to computer Hardware Module 3, Unit 2: Assembling a Computer System Building acomputer system isarewarding experience, allowing you to customize amachine that perfectly fits your..."
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "Itholds allthe essential components together and provides the pathways for data toflow between them",
+    "question": "What information is available about Module 3 Unit 2 - PowerPoint_2c2e11e5c0018de131b5f564d7ac6feb?",
+    "answers": {
+      "text": [
+        "Itholds allthe essential components together and provides the pathways for data toflow between them"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "Itholds allthe essential components together and provides the pathways for data toflow between them",
+    "question": "What does Module 3 Unit 2 - PowerPoint_2c2e11e5c0018de131b5f564d7ac6feb cover?",
+    "answers": {
+      "text": [
+        "Itholds allthe essential components together and provides the pathways for data toflow between them"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "Itholds allthe essential components together and provides the pathways for data toflow between them",
+    "question": "What are the details in Module 3 Unit 2 - PowerPoint_2c2e11e5c0018de131b5f564d7ac6feb?",
+    "answers": {
+      "text": [
+        "Itholds allthe essential components together and provides the pathways for data toflow between them"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "CPT 122 \u2013Introduction to computer Hardware 2 Module 3, Unit 3: Software Installation This unit delves into the procedures forthe installation ofcomputer programs and software",
+    "question": "What information is available about computer hardware in Module 3 Unit 3 - PowerPoint_82158f059e7f08b500e71900e9db8287?",
+    "answers": {
+      "text": [
+        "CPT 122 \u2013Introduction to computer Hardware 2 Module 3, Unit 3: Software Installation This unit delves into the procedures forthe installation ofcomputer programs and software"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "CPT 122 \u2013Introduction to computer Hardware 2 Module 3, Unit 3: Software Installation This unit delves into the procedures forthe installation ofcomputer programs and software",
+    "question": "What does Module 3 Unit 3 - PowerPoint_82158f059e7f08b500e71900e9db8287 say about computer systems?",
+    "answers": {
+      "text": [
+        "CPT 122 \u2013Introduction to computer Hardware 2 Module 3, Unit 3: Software Installation This unit delves into the procedures forthe installation ofcomputer programs and software"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "CPT 122 \u2013Introduction to computer Hardware 2 Module 3, Unit 3: Software Installation This unit delves into the procedures forthe installation ofcomputer programs and software",
+    "question": "What hardware concepts are covered in Module 3 Unit 3 - PowerPoint_82158f059e7f08b500e71900e9db8287?",
+    "answers": {
+      "text": [
+        "CPT 122 \u2013Introduction to computer Hardware 2 Module 3, Unit 3: Software Installation This unit delves into the procedures forthe installation ofcomputer programs and software"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "This section will cover the steps forinstalling drivers onanewly installed OS",
+    "question": "What information is available about Module 3 Unit 3 - PowerPoint_82158f059e7f08b500e71900e9db8287?",
+    "answers": {
+      "text": [
+        "This section will cover the steps forinstalling drivers onanewly installed OS"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "This section will cover the steps forinstalling drivers onanewly installed OS",
+    "question": "What does Module 3 Unit 3 - PowerPoint_82158f059e7f08b500e71900e9db8287 cover?",
+    "answers": {
+      "text": [
+        "This section will cover the steps forinstalling drivers onanewly installed OS"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "This section will cover the steps forinstalling drivers onanewly installed OS",
+    "question": "What are the details in Module 3 Unit 3 - PowerPoint_82158f059e7f08b500e71900e9db8287?",
+    "answers": {
+      "text": [
+        "This section will cover the steps forinstalling drivers onanewly installed OS"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "Introduction Computer maintenance refers to the physical processes of upkeep of the peripherals",
+    "question": "What information is available about computer hardware in module 4 unit 1_9f7f3069b86e54e0133f086880546464?",
+    "answers": {
+      "text": [
+        "Introduction Computer maintenance refers to the physical processes of upkeep of the peripherals"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "Introduction Computer maintenance refers to the physical processes of upkeep of the peripherals",
+    "question": "What does module 4 unit 1_9f7f3069b86e54e0133f086880546464 say about computer systems?",
+    "answers": {
+      "text": [
+        "Introduction Computer maintenance refers to the physical processes of upkeep of the peripherals"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "Introduction Computer maintenance refers to the physical processes of upkeep of the peripherals",
+    "question": "What hardware concepts are covered in module 4 unit 1_9f7f3069b86e54e0133f086880546464?",
+    "answers": {
+      "text": [
+        "Introduction Computer maintenance refers to the physical processes of upkeep of the peripherals"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "Maintenance activities like regular brushing, dusting, vacuum cleaning etc",
+    "question": "What information is available about module 4 unit 1_9f7f3069b86e54e0133f086880546464?",
+    "answers": {
+      "text": [
+        "Maintenance activities like regular brushing, dusting, vacuum cleaning etc"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "Maintenance activities like regular brushing, dusting, vacuum cleaning etc",
+    "question": "What does module 4 unit 1_9f7f3069b86e54e0133f086880546464 cover?",
+    "answers": {
+      "text": [
+        "Maintenance activities like regular brushing, dusting, vacuum cleaning etc"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "Maintenance activities like regular brushing, dusting, vacuum cleaning etc",
+    "question": "What are the details in module 4 unit 1_9f7f3069b86e54e0133f086880546464?",
+    "answers": {
+      "text": [
+        "Maintenance activities like regular brushing, dusting, vacuum cleaning etc"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "- A) Flat-head - B) Phillips - C) Star-head - D) Hex-head 2",
+    "question": "What information is available about Q&A, CPT 122, M3?",
+    "answers": {
+      "text": [
+        "- A) Flat-head - B) Phillips - C) Star-head - D) Hex-head 2"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "- A) Flat-head - B) Phillips - C) Star-head - D) Hex-head 2",
+    "question": "What does Q&A, CPT 122, M3 cover?",
+    "answers": {
+      "text": [
+        "- A) Flat-head - B) Phillips - C) Star-head - D) Hex-head 2"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "- A) Flat-head - B) Phillips - C) Star-head - D) Hex-head 2",
+    "question": "What are the details in Q&A, CPT 122, M3?",
+    "answers": {
+      "text": [
+        "- A) Flat-head - B) Phillips - C) Star-head - D) Hex-head 2"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "- A) Screwdrivers - B) Computer components - C) Computer case - D) Heatsink 4",
+    "question": "What information is available about computer hardware in Q&A, CPT 122, M3?",
+    "answers": {
+      "text": [
+        "- A) Screwdrivers - B) Computer components - C) Computer case - D) Heatsink 4"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "- A) Screwdrivers - B) Computer components - C) Computer case - D) Heatsink 4",
+    "question": "What does Q&A, CPT 122, M3 say about computer systems?",
+    "answers": {
+      "text": [
+        "- A) Screwdrivers - B) Computer components - C) Computer case - D) Heatsink 4"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "- A) Screwdrivers - B) Computer components - C) Computer case - D) Heatsink 4",
+    "question": "What hardware concepts are covered in Q&A, CPT 122, M3?",
+    "answers": {
+      "text": [
+        "- A) Screwdrivers - B) Computer components - C) Computer case - D) Heatsink 4"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "Federal University of Technology (FUT) is a Nigerian university focused on technology and engineering education. The university offers various programs in engineering, technology, and applied sciences.",
+    "question": "What is Federal University of Technology?",
+    "answers": {
+      "text": [
+        "Federal University of Technology (FUT) is a Nigerian university focused on technology and engineering education"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "FUT offers undergraduate and postgraduate programs in various fields including Computer Science, Electrical Engineering, Mechanical Engineering, Civil Engineering, and Information Technology.",
+    "question": "What programs does FUT offer?",
+    "answers": {
+      "text": [
+        "undergraduate and postgraduate programs in various fields including Computer Science, Electrical Engineering, Mechanical Engineering, Civil Engineering, and Information Technology"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "The admission requirements for FUT include a minimum of five credits in relevant subjects including Mathematics and English, and a good score in the Unified Tertiary Matriculation Examination (UTME).",
+    "question": "What are the admission requirements for FUT?",
+    "answers": {
+      "text": [
+        "minimum of five credits in relevant subjects including Mathematics and English, and a good score in the Unified Tertiary Matriculation Examination (UTME)"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "The Federal University of Technology (FUT) is a Nigerian university established in 1981. It focuses on technology and engineering education, offering programs in engineering, technology, and applied sciences. The university has multiple campuses across Nigeria and is known for its practical approach to technical education.",
+    "question": "When was FUT established?",
+    "answers": {
+      "text": [
+        "1981"
+      ],
+      "answer_start": [
+        52
+      ]
+    }
+  },
+  {
+    "context": "FUT offers undergraduate programs in various engineering disciplines including Civil Engineering, Electrical Engineering, Mechanical Engineering, Computer Engineering, and Chemical Engineering. The university also offers programs in Technology Management, Applied Sciences, and Environmental Technology.",
+    "question": "What engineering programs does FUT offer?",
+    "answers": {
+      "text": [
+        "Civil Engineering, Electrical Engineering, Mechanical Engineering, Computer Engineering, and Chemical Engineering"
+      ],
+      "answer_start": [
+        67
+      ]
+    }
+  },
+  {
+    "context": "FUT has a semester system with two main semesters per academic year. The first semester typically runs from September to January, while the second semester runs from February to June. There are also short breaks between semesters and a long vacation from July to August.",
+    "question": "How does FUT's academic calendar work?",
+    "answers": {
+      "text": [
+        "FUT has a semester system with two main semesters per academic year. The first semester typically runs from September to January, while the second semester runs from February to June"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "The university library provides access to textbooks, journals, research papers, and digital resources. Students can borrow books for up to two weeks, access online databases, and use study spaces. The library also offers research assistance and citation help.",
+    "question": "What library services are available to FUT students?",
+    "answers": {
+      "text": [
+        "textbooks, journals, research papers, and digital resources. Students can borrow books for up to two weeks, access online databases, and use study spaces. The library also offers research assistance and citation help"
+      ],
+      "answer_start": [
+        47
+      ]
+    }
+  },
+  {
+    "context": "The Federal University of Technology (FUT) was established in 1981 by the Federal Government of Nigeria. It was created to provide high-quality technical education and produce graduates with practical skills in engineering, technology, and applied sciences.",
+    "question": "When was FUT established and by whom?",
+    "answers": {
+      "text": [
+        "1981 by the Federal Government of Nigeria"
+      ],
+      "answer_start": [
+        52
+      ]
+    }
+  },
+  {
+    "context": "FUT offers Bachelor of Technology (B.Tech) degrees in various engineering disciplines. The university also offers Master of Technology (M.Tech) and Doctor of Philosophy (Ph.D.) programs for postgraduate students. All programs are accredited by the National Universities Commission (NUC).",
+    "question": "What degree programs does FUT offer?",
+    "answers": {
+      "text": [
+        "Bachelor of Technology (B.Tech), Master of Technology (M.Tech), and Doctor of Philosophy (Ph.D.) programs"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "The university campus features modern laboratories, workshops, computer centers, and research facilities. Students have access to industry-standard equipment for practical training. The campus also includes student housing, sports facilities, and a health center.",
+    "question": "What facilities are available on the FUT campus?",
+    "answers": {
+      "text": [
+        "modern laboratories, workshops, computer centers, research facilities, industry-standard equipment, student housing, sports facilities, and a health center"
+      ],
+      "answer_start": [
+        47
+      ]
+    }
+  },
+  {
+    "context": "FUT students are required to complete a minimum of 120 credit hours for undergraduate programs. The curriculum includes core courses, electives, and practical training. Students must maintain a minimum CGPA of 2.0 to remain in good academic standing.",
+    "question": "What are the academic requirements for FUT students?",
+    "answers": {
+      "text": [
+        "complete a minimum of 120 credit hours for undergraduate programs and maintain a minimum CGPA of 2.0"
+      ],
+      "answer_start": [
+        20
+      ]
+    }
+  },
+  {
+    "context": "The Computer Science department at FUT offers programs in software engineering, artificial intelligence, and data science. Students learn programming languages like Python, Java, and C++. The department has modern computer labs and research facilities.",
+    "question": "What programming languages are taught in Computer Science?",
+    "answers": {
+      "text": [
+        "Python, Java, and C++"
+      ],
+      "answer_start": [
+        145
+      ]
+    }
+  },
+  {
+    "context": "FUT has multiple campuses across Nigeria including the main campus in Akure, Ondo State. Each campus offers different programs and has its own administrative structure. The university is known for its practical approach to education and strong industry partnerships.",
+    "question": "Where is FUT's main campus located?",
+    "answers": {
+      "text": [
+        "Akure, Ondo State"
+      ],
+      "answer_start": [
+        67
+      ]
+    }
+  },
+  {
+    "context": "The university provides various student support services including academic counseling, career guidance, and mental health support. There are also student clubs, societies, and sports teams. The student union represents student interests and organizes campus events.",
+    "question": "What student support services does FUT provide?",
+    "answers": {
+      "text": [
+        "academic counseling, career guidance, and mental health support"
+      ],
+      "answer_start": [
+        47
+      ]
+    }
+  },
+  {
+    "context": "COS101 is Introduction to Computer Science, a foundational course covering basic CS concepts, history, and applications. Students learn about computer hardware, software, algorithms, and problem-solving techniques.",
+    "question": "What is COS101?",
+    "answers": {
+      "text": [
+        "Introduction to Computer Science"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "CPT121 covers computer hardware components, maintenance procedures, troubleshooting techniques, and system architecture. Students get hands-on experience with hardware assembly and diagnostics.",
+    "question": "What is CPT121 about?",
+    "answers": {
+      "text": [
+        "computer hardware components, maintenance procedures, troubleshooting techniques"
+      ],
+      "answer_start": [
+        9
+      ]
+    }
+  },
+  {
+    "context": "Computer Science at FUT prepares students for careers in software development, data science, cybersecurity, and IT consulting. The program emphasizes practical skills, problem-solving, and industry-relevant knowledge.",
+    "question": "What career opportunities are available in CS?",
+    "answers": {
+      "text": [
+        "software development, data science, cybersecurity, and IT consulting"
+      ],
+      "answer_start": [
+        75
+      ]
+    }
+  },
+  {
+    "context": "To succeed in Computer Science, students should practice coding daily, build personal projects, join study groups, participate in hackathons, learn version control, and stay updated with technology trends.",
+    "question": "How can I succeed in Computer Science?",
+    "answers": {
+      "text": [
+        "practice coding daily, build personal projects, join study groups, participate in hackathons"
+      ],
+      "answer_start": [
+        25
+      ]
+    }
+  },
+  {
+    "context": "FUT admission requires a minimum UTME score of 180, five O'level credits including Mathematics and English, and passing the Post-UTME screening. Direct entry students need A-level, OND, or HND qualifications.",
+    "question": "What are FUT admission requirements?",
+    "answers": {
+      "text": [
+        "minimum UTME score of 180, five O'level credits including Mathematics and English"
+      ],
+      "answer_start": [
+        25
+      ]
+    }
+  },
+  {
+    "context": "CS students need a laptop with 8GB RAM minimum, code editors like VS Code, programming languages (Python, Java, C++), version control tools (Git), and access to online learning platforms.",
+    "question": "What materials do CS students need?",
+    "answers": {
+      "text": [
+        "laptop with 8GB RAM minimum, code editors like VS Code, programming languages"
+      ],
+      "answer_start": [
+        15
+      ]
+    }
+  },
+  {
+    "context": "Essential software for CS students includes VS Code, PyCharm, Git, MySQL, VirtualBox, and office suites. Online resources include Codecademy, FreeCodeCamp, W3Schools, and Stack Overflow.",
+    "question": "What software do I need for CS?",
+    "answers": {
+      "text": [
+        "VS Code, PyCharm, Git, MySQL, VirtualBox"
+      ],
+      "answer_start": [
+        35
+      ]
+    }
+  },
+  {
+    "context": "To excel in CS studies, attend all lectures, practice coding daily, build personal projects, join study groups, participate in hackathons, learn version control, and network with professionals.",
+    "question": "How can I excel in my CS studies?",
+    "answers": {
+      "text": [
+        "attend all lectures, practice coding daily, build personal projects, join study groups"
+      ],
+      "answer_start": [
+        25
+      ]
+    }
+  },
+  {
+    "context": "Time management for CS students involves creating study schedules, prioritizing tasks, taking breaks, balancing academics with personal life, setting realistic goals, and using productivity tools.",
+    "question": "How should I manage my time as a CS student?",
+    "answers": {
+      "text": [
+        "creating study schedules, prioritizing tasks, taking breaks, balancing academics with personal life"
+      ],
+      "answer_start": [
+        35
+      ]
+    }
+  },
+  {
+    "context": "I'm a specialized FUT Computer Science Assistant designed to help students with academic questions, course information, study materials, and CS guidance. I cannot help with non-academic topics.",
+    "question": "How do I cook pasta?",
+    "answers": {
+      "text": [
+        "I cannot help with non-academic topics"
+      ],
+      "answer_start": [
+        120
+      ]
+    }
+  },
+  {
+    "context": "As a FUT CS Assistant, I focus on computer science education, programming help, academic guidance, and university information. I'm not designed for entertainment, cooking, or personal advice.",
+    "question": "What's the weather like?",
+    "answers": {
+      "text": [
+        "I'm not designed for entertainment, cooking, or personal advice"
+      ],
+      "answer_start": [
+        95
+      ]
+    }
+  }
+]

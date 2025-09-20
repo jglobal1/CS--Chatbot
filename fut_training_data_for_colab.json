@@ -1,0 +1,146 @@
+[
+  {
+    "context": "The Federal University of Technology (FUT) is a Nigerian university established in 1981. It focuses on technology and engineering education, offering programs in engineering, technology, and applied sciences. The university has multiple campuses across Nigeria and is known for its practical approach to technical education.",
+    "question": "When was FUT established?",
+    "answers": {
+      "text": [
+        "1981"
+      ],
+      "answer_start": [
+        52
+      ]
+    }
+  },
+  {
+    "context": "FUT offers undergraduate programs in various engineering disciplines including Civil Engineering, Electrical Engineering, Mechanical Engineering, Computer Engineering, and Chemical Engineering. The university also offers programs in Technology Management, Applied Sciences, and Environmental Technology.",
+    "question": "What engineering programs does FUT offer?",
+    "answers": {
+      "text": [
+        "Civil Engineering, Electrical Engineering, Mechanical Engineering, Computer Engineering, and Chemical Engineering"
+      ],
+      "answer_start": [
+        67
+      ]
+    }
+  },
+  {
+    "context": "Admission to FUT requires a minimum of 5 credits in relevant subjects including Mathematics, English, Physics, Chemistry, and Biology or Agricultural Science. Candidates must also pass the Joint Admissions and Matriculation Board (JAMB) examination with a minimum score of 180.",
+    "question": "What are the admission requirements for FUT?",
+    "answers": {
+      "text": [
+        "minimum of 5 credits in relevant subjects including Mathematics, English, Physics, Chemistry, and Biology or Agricultural Science"
+      ],
+      "answer_start": [
+        25
+      ]
+    }
+  },
+  {
+    "context": "FUT has a semester system with two main semesters per academic year. The first semester typically runs from September to January, while the second semester runs from February to June. There are also short breaks between semesters and a long vacation from July to August.",
+    "question": "How does FUT's academic calendar work?",
+    "answers": {
+      "text": [
+        "FUT has a semester system with two main semesters per academic year. The first semester typically runs from September to January, while the second semester runs from February to June"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "The university library provides access to textbooks, journals, research papers, and digital resources. Students can borrow books for up to two weeks, access online databases, and use study spaces. The library also offers research assistance and citation help.",
+    "question": "What library services are available to FUT students?",
+    "answers": {
+      "text": [
+        "textbooks, journals, research papers, and digital resources. Students can borrow books for up to two weeks, access online databases, and use study spaces. The library also offers research assistance and citation help"
+      ],
+      "answer_start": [
+        47
+      ]
+    }
+  },
+  {
+    "context": "The Federal University of Technology (FUT) was established in 1981 by the Federal Government of Nigeria. It was created to provide high-quality technical education and produce graduates with practical skills in engineering, technology, and applied sciences.",
+    "question": "When was FUT established and by whom?",
+    "answers": {
+      "text": [
+        "1981 by the Federal Government of Nigeria"
+      ],
+      "answer_start": [
+        52
+      ]
+    }
+  },
+  {
+    "context": "FUT offers Bachelor of Technology (B.Tech) degrees in various engineering disciplines. The university also offers Master of Technology (M.Tech) and Doctor of Philosophy (Ph.D.) programs for postgraduate students. All programs are accredited by the National Universities Commission (NUC).",
+    "question": "What degree programs does FUT offer?",
+    "answers": {
+      "text": [
+        "Bachelor of Technology (B.Tech), Master of Technology (M.Tech), and Doctor of Philosophy (Ph.D.) programs"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "The university campus features modern laboratories, workshops, computer centers, and research facilities. Students have access to industry-standard equipment for practical training. The campus also includes student housing, sports facilities, and a health center.",
+    "question": "What facilities are available on the FUT campus?",
+    "answers": {
+      "text": [
+        "modern laboratories, workshops, computer centers, research facilities, industry-standard equipment, student housing, sports facilities, and a health center"
+      ],
+      "answer_start": [
+        47
+      ]
+    }
+  },
+  {
+    "context": "FUT students are required to complete a minimum of 120 credit hours for undergraduate programs. The curriculum includes core courses, electives, and practical training. Students must maintain a minimum CGPA of 2.0 to remain in good academic standing.",
+    "question": "What are the academic requirements for FUT students?",
+    "answers": {
+      "text": [
+        "complete a minimum of 120 credit hours for undergraduate programs and maintain a minimum CGPA of 2.0"
+      ],
+      "answer_start": [
+        20
+      ]
+    }
+  },
+  {
+    "context": "The Computer Science department at FUT offers programs in software engineering, artificial intelligence, and data science. Students learn programming languages like Python, Java, and C++. The department has modern computer labs and research facilities.",
+    "question": "What programming languages are taught in Computer Science?",
+    "answers": {
+      "text": [
+        "Python, Java, and C++"
+      ],
+      "answer_start": [
+        145
+      ]
+    }
+  },
+  {
+    "context": "FUT has multiple campuses across Nigeria including the main campus in Akure, Ondo State. Each campus offers different programs and has its own administrative structure. The university is known for its practical approach to education and strong industry partnerships.",
+    "question": "Where is FUT's main campus located?",
+    "answers": {
+      "text": [
+        "Akure, Ondo State"
+      ],
+      "answer_start": [
+        67
+      ]
+    }
+  },
+  {
+    "context": "The university provides various student support services including academic counseling, career guidance, and mental health support. There are also student clubs, societies, and sports teams. The student union represents student interests and organizes campus events.",
+    "question": "What student support services does FUT provide?",
+    "answers": {
+      "text": [
+        "academic counseling, career guidance, and mental health support"
+      ],
+      "answer_start": [
+        47
+      ]
+    }
+  }
+]

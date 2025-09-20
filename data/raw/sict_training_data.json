@@ -1,0 +1,98 @@
+[
+    {
+        "context": "The School of Information and Communication Technology (SICT) at FUT offers programs in Computer Science, Telecommunications, and Cyber Security. Students can access IT labs and computer facilities during designated hours. The school provides various software and development tools for student use.",
+        "question": "What programs does the SICT school offer?",
+        "answers": {
+            "text": ["Computer Science, Telecommunications, and Cyber Security"],
+            "answer_start": [67]
+        }
+    },
+    {
+        "context": "SICT students can access IT labs and computer facilities during designated hours. The labs are equipped with modern computers, software development tools, and network access. Students need to follow lab usage policies and schedules.",
+        "question": "How do I access the SICT IT labs?",
+        "answers": {
+            "text": ["Students can access IT labs and computer facilities during designated hours"],
+            "answer_start": [0]
+        }
+    },
+    {
+        "context": "The SICT school provides course schedules and prerequisites for all programs. Students can find detailed course information, prerequisites, and scheduling through the school's academic portal and notice boards.",
+        "question": "Where can I find SICT course schedules and prerequisites?",
+        "answers": {
+            "text": ["through the school's academic portal and notice boards"],
+            "answer_start": [67]
+        }
+    },
+    {
+        "context": "SICT students have access to various programming languages and software requirements. The school provides development tools, programming environments, and software licenses for student projects and coursework.",
+        "question": "What programming languages and software are available for SICT students?",
+        "answers": {
+            "text": ["various programming languages and software requirements. The school provides development tools, programming environments, and software licenses"],
+            "answer_start": [20]
+        }
+    },
+    {
+        "context": "Project submission guidelines for SICT students include specific formatting requirements, submission deadlines, and evaluation criteria. Students must follow the school's project submission policies and use the designated submission platforms.",
+        "question": "What are the SICT project submission guidelines?",
+        "answers": {
+            "text": ["specific formatting requirements, submission deadlines, and evaluation criteria"],
+            "answer_start": [47]
+        }
+    },
+    {
+        "context": "The SICT school offers internship and industry connections for students. Students can access career services, industry partnerships, and internship opportunities through the school's career development office.",
+        "question": "How can SICT students find internship and industry connections?",
+        "answers": {
+            "text": ["through the school's career development office"],
+            "answer_start": [67]
+        }
+    },
+    {
+        "context": "SICT faculty members maintain regular office hours and are available for student consultations. Students can find faculty contact information, office hours, and consultation schedules on the school's website and notice boards.",
+        "question": "How can I find SICT faculty office hours and contact information?",
+        "answers": {
+            "text": ["on the school's website and notice boards"],
+            "answer_start": [67]
+        }
+    },
+    {
+        "context": "Research project opportunities are available for SICT students at various levels. Students can participate in faculty research projects, independent research, and collaborative research initiatives through the school's research office.",
+        "question": "What research project opportunities are available for SICT students?",
+        "answers": {
+            "text": ["faculty research projects, independent research, and collaborative research initiatives"],
+            "answer_start": [47]
+        }
+    },
+    {
+        "context": "SICT students have access to IT infrastructure and network resources. The school provides high-speed internet, network storage, cloud computing resources, and database access for academic and research purposes.",
+        "question": "What IT infrastructure and network access do SICT students have?",
+        "answers": {
+            "text": ["high-speed internet, network storage, cloud computing resources, and database access"],
+            "answer_start": [47]
+        }
+    },
+    {
+        "context": "The SICT school has specific policies regarding lab usage, project submissions, academic integrity, and student conduct. These policies are available in the student handbook and on the school's website.",
+        "question": "Where can I find SICT school policies?",
+        "answers": {
+            "text": ["in the student handbook and on the school's website"],
+            "answer_start": [67]
+        }
+    },
+    {
+        "context": "SICT students in Computer Science, Telecommunications, and Cyber Security programs have access to specialized equipment and software. Each program has specific requirements and resources tailored to their field of study.",
+        "question": "What specialized equipment is available for different SICT programs?",
+        "answers": {
+            "text": ["specialized equipment and software. Each program has specific requirements and resources tailored to their field of study"],
+            "answer_start": [47]
+        }
+    },
+    {
+        "context": "The SICT school provides academic support services including tutoring, study groups, and academic counseling. Students can access these services through the school's student support office and academic advisors.",
+        "question": "What academic support services does SICT provide?",
+        "answers": {
+            "text": ["tutoring, study groups, and academic counseling"],
+            "answer_start": [47]
+        }
+    }
+]

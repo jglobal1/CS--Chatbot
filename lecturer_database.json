@@ -1,0 +1,148 @@
+{
+  "COS101": {
+    "course": "Introduction to Computer Science",
+    "lecturers": [
+      {
+        "name": "Umar alkali",
+        "role": "Lead Lecturer"
+      },
+      {
+        "name": "O. Ojerinde O",
+        "role": "Co-Lecturer"
+      },
+      {
+        "name": "Abisoye O. A",
+        "role": "Co-Lecturer"
+      },
+      {
+        "name": "Lawal OLamilekan Lawal",
+        "role": "Co-Lecturer"
+      },
+      {
+        "name": "Bashir Suleiman",
+        "role": "Co-Lecturer"
+      }
+    ]
+  },
+  "COS102": {
+    "course": "Introduction to Problem Solving",
+    "lecturers": [
+      {
+        "name": "Sadiu Admed Abubakar",
+        "role": "Lead Lecturer"
+      },
+      {
+        "name": "Shuaibu M Badeggi",
+        "role": "Co-Lecturer"
+      },
+      {
+        "name": "Ibrahim Shehi Shehu",
+        "role": "Co-Lecturer"
+      },
+      {
+        "name": "Abubakar Suleiman T",
+        "role": "Co-Lecturer"
+      },
+      {
+        "name": "Lasotte yakubu",
+        "role": "Co-Lecturer"
+      }
+    ]
+  },
+  "PHY101": {
+    "course": "General Physics I",
+    "lecturers": [
+      {
+        "name": "Aku Ibrahim",
+        "role": "Lecturer"
+      }
+    ]
+  },
+  "PHY102": {
+    "course": "General Physics II",
+    "lecturers": [
+      {
+        "name": "Dr. Julia Elchie",
+        "role": "Lecturer"
+      }
+    ]
+  },
+  "CST111": {
+    "course": "Communication in English",
+    "lecturers": [
+      {
+        "name": "Okeli Chike",
+        "role": "Lead Lecturer"
+      },
+      {
+        "name": "Amina Gogo Tafida",
+        "role": "Co-Lecturer"
+      },
+      {
+        "name": "Halima Shehu",
+        "role": "Co-Lecturer"
+      }
+    ]
+  },
+  "GST112": {
+    "course": "Nigerian Peoples and Culture",
+    "lecturers": [
+      {
+        "name": "Isah Usman",
+        "role": "Lecturer"
+      }
+    ]
+  },
+  "STA111": {
+    "course": "Descriptive Statistics",
+    "lecturers": [
+      {
+        "name": "Olayiwola Adelutu",
+        "role": "Lecturer"
+      }
+    ]
+  },
+  "FTM-CPT111": {
+    "course": "Probability for Computer Science",
+    "lecturers": [
+      {
+        "name": "Saliu adam muhammad",
+        "role": "Lead Lecturer"
+      },
+      {
+        "name": "Saidu Ahmed Abubakar",
+        "role": "Co-Lecturer"
+      }
+    ]
+  },
+  "FTM-CPT112": {
+    "course": "Front End Web Development",
+    "lecturers": [
+      {
+        "name": "Benjamin Alenoghen",
+        "role": "Lead Lecturer"
+      },
+      {
+        "name": "Lawal Olamilekan Lawal",
+        "role": "Co-Lecturer"
+      },
+      {
+        "name": "Iosotte Yakubu",
+        "role": "Co-Lecturer"
+      },
+      {
+        "name": "Benjamin Alenoghena",
+        "role": "Co-Lecturer"
+      }
+    ]
+  },
+  "FTM-CPT192": {
+    "course": "Introduction to Computer Hardware",
+    "lecturers": [
+      {
+        "name": "Benjamin Alenoghen",
+        "role": "Lecturer"
+      }
+    ]
+  }
+}
