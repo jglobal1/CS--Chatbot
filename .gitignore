@@ -47,3 +47,11 @@ data/models/
 # Temporary files
 *.tmp
 *.temp
+
+# Environment variables and secrets
+.env
+.env.local
+.env.production
+.env.staging
+*.key
+*.pem
