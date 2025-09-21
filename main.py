@@ -1,27 +1,19 @@
 """
 Main entry point for the FUT QA Assistant
-Combines API and static file serving
+Simplified version for Vercel deployment
 """
 
 import os
 import sys
 from pathlib import Path
 
-# Add backend to Python path
-backend_path = Path(__file__).parent / "backend"
-sys.path.insert(0, str(backend_path))
-
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
-
-# Import the main app from backend
-try:
-    from backend.app import app as api_app
-except ImportError:
-    # Fallback if backend app can't be imported
-    api_app = FastAPI(title="FUT QA Assistant API")
+from pydantic import BaseModel
+import requests
+from typing import Optional
 
 # Create main app
 app = FastAPI(
@@ -39,8 +31,65 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Mount the API app
-app.mount("/api", api_app)
+# Request/Response models
+class QuestionRequest(BaseModel):
+    question: str
+
+class AnswerResponse(BaseModel):
+    answer: str
+    confidence: float
+    source: str
+
+# Simple QA function that works without heavy ML dependencies
+def get_simple_answer(question: str) -> dict:
+    """Simple question answering without ML models"""
+    
+    # Basic FUT information
+    fut_info = {
+        "what is fut": "Federal University of Technology, Minna (FUT) is a Nigerian federal university focused on technology and engineering education.",
+        "where is fut": "FUT is located in Minna, Niger State, Nigeria.",
+        "when was fut established": "FUT was established in 1983.",
+        "fut website": "FUT's official website is https://futminna.edu.ng",
+        "fut departments": "FUT offers programs in Computer Science, Engineering, Agriculture, Sciences, and more.",
+        "how to apply to fut": "Admission requirements vary by program. Check the official website for details."
+    }
+    
+    question_lower = question.lower()
+    
+    # Simple keyword matching
+    for key, answer in fut_info.items():
+        if any(word in question_lower for word in key.split()):
+            return {
+                "answer": answer,
+                "confidence": 0.9,
+                "source": "FUT Knowledge Base"
+            }
+    
+    # Default response
+    return {
+        "answer": "I'm the FUT QA Assistant. I can help with questions about Federal University of Technology, Minna. Please ask about FUT programs, admission, or general information.",
+        "confidence": 0.7,
+        "source": "FUT Assistant"
+    }
+
+# API Routes
+@app.post("/ask", response_model=AnswerResponse)
+async def ask_question(request: QuestionRequest):
+    """Ask a question to the FUT QA Assistant"""
+    try:
+        result = get_simple_answer(request.question)
+        return AnswerResponse(**result)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/ask")
+async def ask_question_get(question: str):
+    """Ask a question via GET request"""
+    try:
+        result = get_simple_answer(question)
+        return result
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
 # Mount static files
 if os.path.exists("frontend"):
