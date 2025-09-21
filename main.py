@@ -92,15 +92,98 @@ async def ask_question_get(question: str):
         raise HTTPException(status_code=500, detail=str(e))
 
 # Mount static files
-if os.path.exists("frontend"):
-    app.mount("/static", StaticFiles(directory="frontend"), name="static")
+frontend_path = "frontend"
+if not os.path.exists(frontend_path):
+    frontend_path = "."
+
+if os.path.exists(frontend_path):
+    app.mount("/static", StaticFiles(directory=frontend_path), name="static")
 
 @app.get("/")
 async def read_index():
     """Serve the main HTML file"""
-    if os.path.exists("frontend/index.html"):
-        return FileResponse("frontend/index.html")
-    return {"message": "FUT QA Assistant API", "status": "running"}
+    # Try different possible locations for the HTML file
+    possible_paths = [
+        "index.html",
+        "frontend/index.html"
+    ]
+    
+    for path in possible_paths:
+        if os.path.exists(path):
+            return FileResponse(path)
+    
+    # Fallback: return a simple HTML page
+    return """
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>FUT QA Assistant</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 40px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
+            .container { max-width: 800px; margin: 0 auto; background: white; padding: 30px; border-radius: 15px; color: #333; }
+            .header { text-align: center; margin-bottom: 30px; }
+            .logo { width: 60px; height: 60px; background: #2c3e50; border-radius: 10px; margin: 0 auto 20px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; }
+            h1 { color: #2c3e50; margin-bottom: 10px; }
+            .subtitle { color: #666; margin-bottom: 30px; }
+            .input-group { margin-bottom: 20px; }
+            input[type="text"] { width: 100%; padding: 15px; border: 2px solid #ddd; border-radius: 8px; font-size: 16px; }
+            button { background: #667eea; color: white; padding: 15px 30px; border: none; border-radius: 8px; cursor: pointer; font-size: 16px; }
+            button:hover { background: #5a6fd8; }
+            .status { margin-top: 20px; padding: 15px; background: #f8f9fa; border-radius: 8px; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="logo">FUT</div>
+                <h1>FUT QA Assistant</h1>
+                <p class="subtitle">Ask questions about Federal University of Technology</p>
+            </div>
+            
+            <div class="input-group">
+                <input type="text" id="questionInput" placeholder="Ask your question about FUT..." />
+                <button onclick="askQuestion()">Ask Question</button>
+            </div>
+            
+            <div class="status">
+                <p><strong>API Status:</strong> <span id="apiStatus">Connected</span></p>
+                <p><strong>Model:</strong> <span id="modelStatus">Johnson's Training Model</span></p>
+            </div>
+            
+            <div id="response" style="margin-top: 20px; padding: 15px; background: #e9ecef; border-radius: 8px; display: none;"></div>
+        </div>
+        
+        <script>
+            async function askQuestion() {
+                const question = document.getElementById('questionInput').value;
+                const responseDiv = document.getElementById('response');
+                
+                if (!question) {
+                    alert('Please enter a question!');
+                    return;
+                }
+                
+                try {
+                    const response = await fetch('/ask?question=' + encodeURIComponent(question));
+                    const data = await response.json();
+                    
+                    responseDiv.innerHTML = '<strong>Answer:</strong> ' + data.answer;
+                    responseDiv.style.display = 'block';
+                } catch (error) {
+                    responseDiv.innerHTML = '<strong>Error:</strong> ' + error.message;
+                    responseDiv.style.display = 'block';
+                }
+            }
+            
+            document.getElementById('questionInput').addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    askQuestion();
+                }
+            });
+        </script>
+    </body>
+    </html>
+    """
 
 @app.get("/health")
 async def health_check():

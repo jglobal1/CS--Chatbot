@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>FUT QA Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <div class="logo-section">
+                    <svg class="fut-logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="100" height="100" fill="#2c3e50" rx="10"/>
+                        <text x="50" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="white">FUT</text>
+                        <text x="50" y="55" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">MINNA</text>
+                        <circle cx="50" cy="75" r="8" fill="#3498db"/>
+                    </svg>
+                    <div class="title-section">
+                        <h1>🎓 FUT QA Assistant</h1>
+                        <p>Ask questions about Federal University of Technology</p>
+                    </div>
+                </div>
+                <div class="profile-section">
+                    <svg class="profile-picture" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="50" fill="#667eea"/>
+                        <circle cx="50" cy="35" r="15" fill="white"/>
+                        <path d="M25 75 Q25 60 50 60 Q75 60 75 75 L75 100 L25 100 Z" fill="white"/>
+                    </svg>
+                    <span class="profile-name">Johnson</span>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="chat-container">
+                <div class="chat-messages" id="chatMessages">
+                    <div class="message bot-message">
+                        <div class="message-content">
+                            <p>Hello! I'm your FUT QA Assistant. Ask me anything about the Federal University of Technology, including:</p>
+                            <ul>
+                                <li>Academic programs and departments</li>
+                                <li>Admission requirements</li>
+                                <li>Course information</li>
+                                <li>University policies</li>
+                                <li>And much more!</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input-container">
+                    <div class="input-group">
+                        <textarea 
+                            id="questionInput" 
+                            placeholder="Ask your question about FUT..."
+                            rows="3"
+                        ></textarea>
+                        <button id="askButton" onclick="askQuestion()">
+                            <span id="buttonText">Ask Question</span>
+                            <span id="loadingSpinner" class="spinner" style="display: none;">⏳</span>
+                        </button>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="status-panel">
+                <div class="status-item">
+                    <span class="status-label">API Status:</span>
+                    <span id="apiStatus" class="status-value">Checking...</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">Model:</span>
+                    <span id="modelStatus" class="status-value">Loading...</span>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 FUT QA Assistant - Developed by Johnson - Powered by AI</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
