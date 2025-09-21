@@ -1,7 +1,7 @@
 // FUT QA Assistant Frontend JavaScript
 
 // Configuration
-const API_BASE_URL = 'http://localhost:8000'; // Change this to your backend URL
+const API_BASE_URL = window.location.origin; // Use the same domain as the frontend
 
 // DOM Elements
 const chatMessages = document.getElementById('chatMessages');
